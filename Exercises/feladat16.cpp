@@ -1,7 +1,7 @@
 /*
-1. Olvassa be a palota.jpg képet színesben.
-2. Hisztogramtranszformáció segítségével javítson a képen.
-3. Mentse el lathato_palota.png néven.
+1. Olvassa be a palota.jpg kÃ©pet szÃ­nesben.
+2. HisztogramtranszformÃ¡ciÃ³ segÃ­tsÃ©gÃ©vel javÃ­tson a kÃ©pen.
+3. Mentse el lathato_palota.png nÃ©ven.
 */
 
 #include <iostream>
@@ -34,6 +34,8 @@ int main() {
 	imshow("vilagositott debreceni deep", dest);
 	imshow("geppel vilagositott debreceni deep", dest2);
 	waitKey(0);
+	
+	imwrite("lathato_palota.png", dest2);
 
 
 	return 0;
